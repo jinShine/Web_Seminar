@@ -1,5 +1,8 @@
 # Web_Seminar
-10일간 진행되는 Web 기초 강의 자료😁
+Web 강의 자료😁
+* 공통 : 기초 지식, HTML, CSS
+* Frontend : Sass, JS, React
+* Backend : Flask + MongoDB
 
 </br>
 
