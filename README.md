@@ -4,6 +4,8 @@ Web 강의 자료😁
 * Frontend : Sass, JS, React
 * Backend : Flask + MongoDB
 
+Frontend 내용 업데이트 중...🔥
+
 </br>
 
 **1Day**
