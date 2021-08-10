@@ -1,9 +1,13 @@
 # Web_Seminar
+
 Web 강의 자료😁
 * 공통 : 기초 지식, HTML, CSS
 * Frontend : Sass, JS, React
 * Backend : Flask + MongoDB
 
+
+#### 자세한 강의 자료는 따로 제공됩니다:)
+</br>
 Frontend 내용 업데이트 중...🔥
 
 </br>
