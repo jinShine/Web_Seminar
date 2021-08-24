@@ -1,0 +1,47 @@
+# 주요범위
+
+1. <html>
+    HTML 문서의 범위를 설정.
+2. <head>
+    HTML 문서의 정보를 설정.
+3. <body>
+    HTML 문서의 구조를 설정.
+
+# 메타데이터
+1. <title>
+    브라우저의 제목 표시줄이나 페이지 탭에 보여지는 문서의 제목을 설정.
+2. <base />
+    HTML 문서에 포함된 모든 상대 URL들의 기준 URL를 설정.
+    한 문서에 하나의 <base /> 요소만 포함 가능.
+    예1)
+    <base href="./css/">
+    <link rel="stylesheet" href="main.css">
+
+    예2)
+    <base href="https://www.naver.com/">
+    <img src="img/samll.jpg" alt="샘플 이미지">
+    <img src="img/large.jpg" alt="샘플 이미지">
+
+3. <link />
+    외부 리소스의 연결 및 현재 문서와의 관계를 명시.
+    (HTML, CSS, ICON 등 가져오기)
+4. <meta />
+    기타 메타데이터 요소(<link />, <style> 같은)로 나타낼 수 없는 메타데이터를 나타내기 위해 설정.
+    (검색엔진이나 브라우저에 정보 제공)
+
+    charset: 문자인코딩 방식
+        UTF-8, EUC-KR…
+    name:	메타 데이터의 이름(정보의 종류)
+        author, description…
+    http-equiv:	서버/사용자 에이전트의 작동방식 변경에 대한 지시(HTTP 응답 헤더 제공)
+    	refresh, X-UA-Compatible…
+    content: name, http-equiv의 값
+    
+    예)
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1, minimum-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+5. <style>
+    스타일 정보(CSS)를 설정.
+    type:	MIME 타입	
+        기본값 - text/css
